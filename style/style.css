@@ -1,0 +1,134 @@
+.nav{
+  position: sticky;
+}
+.h1style{
+  font-family: "Audiowide", sans-serif;
+}
+
+.navbar-nav{
+  margin-left: 200px;
+}
+.nav-item{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.nav-item :hover{
+  background-color: #989fa39e;
+  color: #f1c40f;
+  border-radius: 2px;
+  border-radius: 82px 82px 82px 82px;
+-moz-border-radius: 82px 82px 82px 82px;
+-webkit-border-radius: 82px 82px 82px 82px;
+border: 0px solid #000000;
+
+}
+.nav-link {
+  text-decoration: solid;
+}
+.nav-item :hover{
+  text-decoration: underline;
+}
+.navbar-brand{
+  margin-left: 50px;
+  text-decoration: solid;
+ 
+}
+.input-group{
+  margin-left: 20px;
+}
+.btn{
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+.form-outline{
+  margin-top: 30px;
+}
+
+
+/*carsoul*/
+#carouselControls{
+  border: 2px black;
+}
+.carousel-inner{
+  height: 600px;
+  text-align: center;
+}
+.carousel-item{
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+}
+.carousel-item img{
+  height: 100%;
+  width:100%
+}
+
+
+
+
+/*main*/
+
+/*footer*/
+.footer{
+    background-color: #2f3542;
+    color: #f1f2f6;
+    height: 50px;
+    text-align: center;
+}
+
+
+/*card*/
+.property-card {
+    margin-bottom: 50px;
+    margin-left: 250px;
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 15px 0px;
+    margin: 0px auto 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  .image-container {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 10 10 10 1;
+  }
+
+  @media (max-width: 768px) {
+    .image-container {
+      padding-bottom: 12px;
+    }
+  }
+
+  .image-container img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .interested-text {
+    font-size: 10px;
+  }
+
+  .detail-container {
+    padding-bottom: 10px;
+  }
+
+  .property-name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .property-address {
+    color: #6f6f6f;
+    font-size: 13px;
+    padding-bottom: 5px;
+  }
+
+  .property-gender img {
+    width: 40px;
+  }
